@@ -1,0 +1,8 @@
+・ソケット使った簡単なチャットソフト作ろう。
+　→クライアントとサーバープログラム。
+・Game/Test2D
+・Game/Test3D
+　→とりいそぎ動く球・動くBOX判定→TestMovingSphereMovingBox()
+・Database/MySQL
+・Network/Socket
+・FpsTimerにフレームスキップ機能

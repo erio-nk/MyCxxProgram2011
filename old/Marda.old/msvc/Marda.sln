@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Marda", "Marda\Marda.vcproj", "{45AFFFEE-4C11-4065-AD9B-E10BC9A8700F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Marda.test", "Marda.test\Marda.test.vcproj", "{1C758585-07B5-41A9-8E8C-BA1BE28E2E51}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45AFFFEE-4C11-4065-AD9B-E10BC9A8700F} = {45AFFFEE-4C11-4065-AD9B-E10BC9A8700F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45AFFFEE-4C11-4065-AD9B-E10BC9A8700F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{45AFFFEE-4C11-4065-AD9B-E10BC9A8700F}.Debug|Win32.Build.0 = Debug|Win32
+		{45AFFFEE-4C11-4065-AD9B-E10BC9A8700F}.Release|Win32.ActiveCfg = Release|Win32
+		{45AFFFEE-4C11-4065-AD9B-E10BC9A8700F}.Release|Win32.Build.0 = Release|Win32
+		{1C758585-07B5-41A9-8E8C-BA1BE28E2E51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C758585-07B5-41A9-8E8C-BA1BE28E2E51}.Debug|Win32.Build.0 = Debug|Win32
+		{1C758585-07B5-41A9-8E8C-BA1BE28E2E51}.Release|Win32.ActiveCfg = Release|Win32
+		{1C758585-07B5-41A9-8E8C-BA1BE28E2E51}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

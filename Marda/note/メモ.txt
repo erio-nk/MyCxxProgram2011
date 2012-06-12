@@ -1,0 +1,67 @@
+
+メアド e.nakayama@gmail.com取ろうかなぁ。
+
+lea命令の挙動をインラインアセンブラを使って調べる
+
+return_structプロジェクトで、4バイト以上の戻り値をどう返しているか調べる
+
+型キャストやサイズの違うものを比較した時のアセンブリコードを見る。
+たぶんmovxとか増えてんじゃない？
+
+
+
+ヘルパ、ユーティリティの域を出すぎない。元になるAPIの利用を便利にする。がモットー。
+
+
+Marda
+	Types
+	Misc
+	String
+	STLHelpers
+		container_diff
+	Container
+	File
+		FileEnumrater
+	Thread
+	Coroutine
+	Date
+	Timer
+	Profiler
+	PerformanceCounter
+
+	Utilities
+		CommandLineOptions
+		WorkerThread
+		ThreadPool		//	pplあるから要らないかも？
+		Logger
+		MemoryPool
+		FrameRateController
+
+Marda/Windows
+	Window
+	WindowMessageHelpers
+
+Marda/Math
+	Helpers
+	Vector
+	Matrix
+	Quaternion
+
+Marda/Graphics
+	Direct3D10
+		Direct3D10ApplicationFrame
+	SceneGraph
+	UserInterface
+
+Marda/Network
+
+Marda/Database
+
+Marda/Tools			// アプリケーション開発時の有用ツール
+	SerializeCodeGenerator	// ヘッダファイルに定義された構造体をシリアライズ／デシリアライズするプログラムを自動生成するツール。inline形式か否かを選択できるようにしたいな。
+				//	配列に対するコードかストリームに対するコードか（>>or<<）を指定できるようにしたい
+	ExcelConvertor		// エクセルコンバータ
+				//	C++でつくるとめんどくさいのでC#で作る。対応する構造体のCヘッダや、読み込み用Cソース、C#ソースを出力できる様にしたい。
+				//	なんかC++でも簡単にエクセルを扱うライブラリはそろそろ無いかね？
+	ParamLoaderGenerator	// やっぱりエクセルから・・・CSVでもいいけど。
+

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fmod_kakudo", "fmod_kakudo\fmod_kakudo.vcproj", "{9E8B2377-3CDB-4838-A64A-67316CD7202E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E8B2377-3CDB-4838-A64A-67316CD7202E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E8B2377-3CDB-4838-A64A-67316CD7202E}.Debug|Win32.Build.0 = Debug|Win32
+		{9E8B2377-3CDB-4838-A64A-67316CD7202E}.Release|Win32.ActiveCfg = Release|Win32
+		{9E8B2377-3CDB-4838-A64A-67316CD7202E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

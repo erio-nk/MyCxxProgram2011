@@ -1,0 +1,6 @@
+noteVS10Expressでx64コマンドプロンプトを立ち上げるには、
+スタートアップの「Visual Studio コマンドプロンプト」ショートカットをコピーし、
+末尾の「x86」を「amd64」にする。
+その後「C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\amd64\」に
+vcvars64.batをコピーし、ショートカットを立ち上げる。
+vcvars64.batの利用には、WindowsSDK7.1が必要。

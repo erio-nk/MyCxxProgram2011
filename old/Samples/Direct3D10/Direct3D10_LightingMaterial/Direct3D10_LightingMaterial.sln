@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Direct3D10_LightingMaterial", "Direct3D10_LightingMaterial.vcproj", "{071F9553-C9A9-4683-90A4-15D194219B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{071F9553-C9A9-4683-90A4-15D194219B33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{071F9553-C9A9-4683-90A4-15D194219B33}.Debug|Win32.Build.0 = Debug|Win32
+		{071F9553-C9A9-4683-90A4-15D194219B33}.Release|Win32.ActiveCfg = Release|Win32
+		{071F9553-C9A9-4683-90A4-15D194219B33}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

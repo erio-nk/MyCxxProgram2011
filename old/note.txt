@@ -1,0 +1,10 @@
+■VisualC++にユーザーキーワードを定義する
+C:\Program Files\Microsoft Visual Studio .NET 2003\Common7\IDE
+に
+usertype.dat
+を作り、
+各行にキーワードを書く。
+
+色の指定は
+ツール→オプション→フォントおよび色→ユーザキーワード
+で指定する
